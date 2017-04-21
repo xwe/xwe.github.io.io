@@ -132,11 +132,11 @@
 </div>
 
 <br>
-<label style="white-space:nowrap;"><input style="vertical-align: middle;" type="checkbox" onchange="WebApp.setLogEnabled(this.checked);" checked> Enable log</label>
-<button style="margin-left: .5em;" onclick="logMonitor.innerHTML = '';">Clear log</button>
-<button style="margin-left: .5em;" onclick="executeCommand();">Command</button>
+<label style="white-space:nowrap; displlay:none;"><input style="vertical-align: middle; displlay:none;" type="checkbox" onchange="WebApp.setLogEnabled(this.checked);" checked> Enable log</label>
+<button style="margin-left: .5em; displlay:none;" onclick="logMonitor.innerHTML = '';">Clear log</button>
+<button style="margin-left: .5em; displlay:none;" onclick="executeCommand();">Command</button>
 
-<div id="logMonitor" style="font-family: monospace; color: darkgray;"></div>
+<div id="logMonitor" style="font-family: monospace; color: darkgray; displlay:none;"></div>
 
 <script src="WebApp.js"></script>
 
